@@ -1248,7 +1248,7 @@ window.onload = function() {
                 '[tiktok_handle]',
                 '[pinterest_handle]',
                 // Old format (full URL placeholders)
-                '[social_facebook]',
+                'https://facebook.com/יועץ משכנתאות יחזקאל אביחיל',
                 '[social instagram]',
                 '[social_instagram]',
                 'https://wa.me/972547450503',
