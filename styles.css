@@ -137,16 +137,16 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 :root {
---primary: #2563eb;
-  --secondary: #0ea5e9;
-  --accent: #38bdf8;
-  --bg-light: #f0f7ff;
+--primary: #1a56db;
+  --secondary: #1e90ff;
+  --accent: #60a5fa;
+  --bg-light: #eff6ff;
   --bg-dark: #1e3a5f;
-  --text-dark: #1e293b;
+  --text-dark: #1e3a5f;
   --text-light: #f0f9ff;
-  --text-muted: #38bdf8;
-  --border-light: #38bdf8;
-  --border-dark: #38bdf8;
+  --text-muted: #1a56db;
+  --border-light: #1a56db;
+  --border-dark: #1a56db;
   --nav-bg: #F3EDE3;
   --nav-text: #2B2622;
   --nav-text-hover: #C96A4A;
@@ -169,21 +169,21 @@
   --transition-default: all 0.22s ease;
   --transition-hover: transform 0.22s ease, box-shadow 0.22s ease;
 
-  --gradient-primary: linear-gradient(180deg, #2F6AEC 0%, #1C5CEA 100%);
+  --gradient-primary: linear-gradient(180deg, #1C5AE4 0%, #1952D2 100%);
   --gradient-gold-shine: linear-gradient(90deg, rgba(255,248,238,0) 0%, rgba(255,237,214,0.75) 52%, rgba(255,248,238,0) 100%);
-  --gradient-secondary: linear-gradient(180deg, #3CBAF3 0%, #1EB0F2 100%);
+  --gradient-secondary: linear-gradient(180deg, #5FA4FA 0%, #379CFF 100%);
   --gradient-gold-accent: linear-gradient(135deg, #E9C08A 0%, #D7A56A 100%);
-  --gradient-dark-section: linear-gradient(180deg, #0EA2E4 0%, #0B80B5 100%);
+  --gradient-dark-section: linear-gradient(180deg, #198EFF 0%, #0075E6 100%);
   --gradient-overlay-dark: linear-gradient(90deg, rgba(109,73,47,0.12) 0%, rgba(109,73,47,0.04) 100%);
   --gradient-light-section: linear-gradient(180deg, #FCF8F2 0%, #F2E7D8 100%);
   --gradient-overlay-light: linear-gradient(180deg, rgba(255,250,244,0.96) 0%, rgba(248,240,229,0.88) 100%);
-  --primary-color: #2563eb;
-  --secondary-color: #0ea5e9;
-  --accent-color: #38bdf8;
-  --background-color: #f0f7ff;
-  --surface-color: #e8f4fd;
-  --text-color: #1e293b;
-  --text-secondary-color: #38bdf8;
+  --primary-color: #1a56db;
+  --secondary-color: #1e90ff;
+  --accent-color: #60a5fa;
+  --background-color: #eff6ff;
+  --surface-color: #dbeafe;
+  --text-color: #1e3a5f;
+  --text-secondary-color: #1a56db;
 }
 
 *,
@@ -721,16 +721,16 @@ textarea::placeholder {
   --nav-bg: #F3EDE3;
   --nav-text: #2B2622;
   --nav-text-hover: #C96A4A;
-  --primary: #2563eb;
-  --secondary: #0ea5e9;
-  --accent: #38bdf8;
-  --bg-light: #f0f7ff;
+  --primary: #1a56db;
+  --secondary: #1e90ff;
+  --accent: #60a5fa;
+  --bg-light: #eff6ff;
   --bg-dark: #1e3a5f;
-  --text-dark: #1e293b;
+  --text-dark: #1e3a5f;
   --text-light: #f0f9ff;
-  --text-muted: #38bdf8;
-  --border-light: #38bdf8;
-  --border-dark: #38bdf8;
+  --text-muted: #1a56db;
+  --border-light: #1a56db;
+  --border-dark: #1a56db;
 }
 
 .navbar {
@@ -849,7 +849,7 @@ textarea::placeholder {
 }
 
 .nav-cta-btn:hover {
-  background-color: #2563eb;
+  background-color: #1a56db;
   transform: translateY(-1px);
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
 }
@@ -972,16 +972,16 @@ textarea::placeholder {
   --nav-bg: #F3EDE3;
   --nav-text: #2B2622;
   --nav-text-hover: #C96A4A;
-  --primary: #2563eb;
-  --secondary: #0ea5e9;
-  --accent: #38bdf8;
-  --bg-light: #f0f7ff;
+  --primary: #1a56db;
+  --secondary: #1e90ff;
+  --accent: #60a5fa;
+  --bg-light: #eff6ff;
   --bg-dark: #1e3a5f;
-  --text-dark: #1e293b;
+  --text-dark: #1e3a5f;
   --text-light: #f0f9ff;
-  --text-muted: #38bdf8;
-  --border-light: #38bdf8;
-  --border-dark: #38bdf8;
+  --text-muted: #1a56db;
+  --border-light: #1a56db;
+  --border-dark: #1a56db;
 }
 
 .navbar {
@@ -1100,7 +1100,7 @@ textarea::placeholder {
 }
 
 .nav-cta-btn:hover {
-  background-color: #2563eb;
+  background-color: #1a56db;
   transform: translateY(-1px);
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
 }
@@ -1289,7 +1289,7 @@ textarea::placeholder {
 .navbar a:focus-visible,
 .navbar button:focus-visible,
 .nav-menu a:focus-visible {
-  outline: 2px solid var(--primary-color, var(--primary, #2563eb));
+  outline: 2px solid var(--primary-color, var(--primary, #1a56db));
   outline-offset: 2px;
 }
 
@@ -2126,16 +2126,16 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 /* Footer Styles */
 .site-footer {
-  --primary: #2563eb;
-  --secondary: #0ea5e9;
-  --accent: #38bdf8;
-  --bg-light: #f0f7ff;
+  --primary: #1a56db;
+  --secondary: #1e90ff;
+  --accent: #60a5fa;
+  --bg-light: #eff6ff;
   --bg-dark: #1e3a5f;
-  --text-dark: #1e293b;
+  --text-dark: #1e3a5f;
   --text-light: #f0f9ff;
-  --text-muted: #38bdf8;
-  --border-light: #38bdf8;
-  --border-dark: #38bdf8;
+  --text-muted: #1a56db;
+  --border-light: #1a56db;
+  --border-dark: #1a56db;
   font-family: 'Rubik', sans-serif;
   direction: rtl;
   background-color: var(--bg-dark);
@@ -2366,7 +2366,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .cta-btn:hover {
-  background: #2563eb;
+  background: #1a56db;
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(201, 106, 74, 0.4);
 }
@@ -2649,14 +2649,14 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-hero-section .index-hero-btn-primary {
-  background: linear-gradient(180deg, #2F6AEC 0%, #2563EB 100%);
+  background: linear-gradient(180deg, #1C5AE4 0%, #1A56DB 100%);
   color: #FFF9F2;
   border: none;
   box-shadow: 0 8px 18px rgba(213, 109, 52, 0.22);
 }
 
 .index-hero-section .index-hero-btn-primary:hover {
-  background: linear-gradient(180deg, #2563EB 0%, #1451D8 100%);
+  background: linear-gradient(180deg, #1A56DB 0%, #1649BB 100%);
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.28);
   transform: translateY(-2px);
   color: #FFF9F2;
@@ -3020,7 +3020,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-services-section .index-services-btn-primary:hover {
-  background: #2563eb;
+  background: #1a56db;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
   transform: translateY(-2px);
 }
@@ -3032,7 +3032,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-services-section .index-services-btn-secondary:hover {
-  background: #38bdf8;
+  background: #60a5fa;
   box-shadow: 0 18px 36px rgba(110, 143, 175, 0.28);
   transform: translateY(-2px);
 }
@@ -3092,7 +3092,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-services-section .index-services-reassurance-link:hover {
-  color: #1c5cea;
+  color: #1a56db;
   gap: 10px;
 }
 
@@ -3286,7 +3286,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .index-process-panel-icon {
   background: rgba(111,125,78,0.15);
   border-color: rgba(111,125,78,0.25);
-  color: #0a75a6;
+  color: #1a56db;
 }
 
 .index-process-panel-title-wrap {
@@ -3350,7 +3350,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .index-process-step-marker {
   background: rgba(111,125,78,0.18);
   border-color: rgba(111,125,78,0.35);
-  color: #0a75a6;
+  color: #1a56db;
 }
 
 .index-process-step-content {
@@ -3821,8 +3821,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-cta-section .index-cta-btn-primary:hover {
-  background: #2563eb;
-  border-color: #2563eb;
+  background: #1a56db;
+  border-color: #1a56db;
   box-shadow: 0 20px 40px rgba(213,109,52,0.32);
   transform: translateY(-2px);
   color: #FFF9F2;
@@ -4003,7 +4003,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .bookkeeping-annual-reports-intro-section .bari-btn-primary:hover {
-  background: #2563eb;
+  background: #1a56db;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
   transform: translateY(-2px);
 }
@@ -4969,7 +4969,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .bookkeeping-annual-reports-cta-section .bar-btn-primary:hover {
-  background: #2563eb;
+  background: #1a56db;
   box-shadow: 0 18px 36px rgba(213,109,52,0.22);
   transform: translateY(-2px);
 }
@@ -5102,7 +5102,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .mortgage-consulting-intro-section .mc-btn-primary:hover {
-  background: #2563eb;
+  background: #1a56db;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
   transform: translateY(-2px);
   color: #FFF9F2;
@@ -5195,7 +5195,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .mortgage-consulting-intro-section .mc-floating-icon {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, var(--primary) 0%, #1454DF 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #174CC1 100%);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -5891,7 +5891,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .mortgage-consulting-scenarios-section .mcs-btn-primary:hover {
-  background: #2563eb;
+  background: #1a56db;
   box-shadow: 0 18px 36px rgba(213,109,52,0.22);
   transform: translateY(-2px);
   color: #FFF9F2;
@@ -5955,7 +5955,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   background-image:
     radial-gradient(ellipse at 80% 20%, rgba(201, 106, 74, 0.25) 0%, transparent 55%),
     radial-gradient(ellipse at 10% 80%, rgba(110, 143, 175, 0.12) 0%, transparent 50%),
-    linear-gradient(180deg, #0EA2E4 0%, #0B80B5 100%);
+    linear-gradient(180deg, #198EFF 0%, #0075E6 100%);
   color: var(--text-light);
   padding: 96px 24px;
   direction: rtl;
@@ -6053,7 +6053,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .mortgage-consulting-cta-section .mortgage-cta-btn:hover {
-  background: #2563eb;
+  background: #1a56db;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.32);
   transform: translateY(-2px);
 }
@@ -6235,7 +6235,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .about-profile-section .about-profile-cta:hover {
-  background: #2563eb;
+  background: #1a56db;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.28);
   transform: translateY(-2px);
 }
@@ -6554,11 +6554,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .about-expertise-section .expertise-panel--accounting .expertise-panel__title {
-  color: #2563eb;
+  color: #1a56db;
 }
 
 .about-expertise-section .expertise-panel--mortgage .expertise-panel__title {
-  color: #0674a6;
+  color: #1a56db;
 }
 
 .about-expertise-section .expertise-panel__text {
@@ -7232,7 +7232,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .about-cta-section .about-cta-badge {
   display: inline-block;
   background: rgba(201, 106, 74, 0.18);
-  color: #5d8bf0;
+  color: #60a5fa;
   border: 1px solid rgba(201, 106, 74, 0.35);
   border-radius: 100px;
   padding: 6px 20px;
@@ -7282,7 +7282,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .about-cta-section .about-cta-btn:hover {
-  background: #2563eb;
+  background: #1a56db;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.32);
   transform: translateY(-2px);
 }
@@ -7711,7 +7711,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   width: 52px;
   height: 52px;
   border-radius: var(--radius-badge, 100px);
-  background: linear-gradient(135deg, var(--primary) 0%, #134DCC 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #1545AF 100%);
   box-shadow: 0 6px 18px rgba(201,106,74,0.30);
   flex-shrink: 0;
 }
@@ -7977,7 +7977,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .contact-contact-form-section .contact-submit-btn:hover {
-  background: #2563eb;
+  background: #1a56db;
   box-shadow: 0 18px 36px rgba(213,109,52,0.22);
   transform: translateY(-2px);
 }
@@ -8368,9 +8368,9 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 
 /* Cookie Consent Customizations */
 :root {
-  --cc-btn-primary-bg: #38bdf8;
-  --cc-btn-primary-border: #38bdf8;
-  --cc-btn-primary-hover-bg: #38bdf8;
+  --cc-btn-primary-bg: #60a5fa;
+  --cc-btn-primary-border: #60a5fa;
+  --cc-btn-primary-hover-bg: #60a5fa;
 }
 
 #cc--main {
@@ -8680,11 +8680,9 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+
 /* === BUTTON TEXT OVERRIDES START === */
-.btn-secondary,
-.btn--secondary,
-[class*="btn-secondary"],
-[class*="btn--secondary"] { color: #333333 !important; }
 .btn-accent,
 .btn--accent,
 [class*="btn-accent"],
