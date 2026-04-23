@@ -138,10 +138,10 @@
 }
 :root {
 --primary: #1A4F8A;
-  --secondary: #C45C1A;
-  --accent: #E8871E;
+  --secondary: #D95F0E;
+  --accent: #F4A020;
   --bg-light: #FFFFFF;
-  --bg-dark: #1e3a5f;
+  --bg-dark: #1A4F8A;
   --text-dark: #4a4a4a;
   --text-light: #f0f9ff;
   --text-muted: #656565;
@@ -171,15 +171,15 @@
 
   --gradient-primary: linear-gradient(180deg, #1C5493 0%, #184A82 100%);
   --gradient-gold-shine: linear-gradient(90deg, rgba(255,248,238,0) 0%, rgba(255,237,214,0.75) 52%, rgba(255,248,238,0) 100%);
-  --gradient-secondary: linear-gradient(180deg, #E8871D 0%, #DA661D 100%);
+  --gradient-secondary: linear-gradient(180deg, #F4A020 0%, #F06910 100%);
   --gradient-gold-accent: linear-gradient(135deg, #E9C08A 0%, #D7A56A 100%);
-  --gradient-dark-section: linear-gradient(180deg, #C05A19 0%, #934514 100%);
+  --gradient-dark-section: linear-gradient(180deg, #D95F0E 0%, #A5480B 100%);
   --gradient-overlay-dark: linear-gradient(90deg, rgba(109,73,47,0.12) 0%, rgba(109,73,47,0.04) 100%);
   --gradient-light-section: linear-gradient(180deg, #FCF8F2 0%, #F2E7D8 100%);
   --gradient-overlay-light: linear-gradient(180deg, rgba(255,250,244,0.96) 0%, rgba(248,240,229,0.88) 100%);
   --primary-color: #1A4F8A;
-  --secondary-color: #C45C1A;
-  --accent-color: #E8871E;
+  --secondary-color: #D95F0E;
+  --accent-color: #F4A020;
   --background-color: #FFFFFF;
   --surface-color: #F0F4F9;
   --text-color: #4a4a4a;
@@ -722,10 +722,10 @@ textarea::placeholder {
   --nav-text: #2B2622;
   --nav-text-hover: #C96A4A;
   --primary: #1A4F8A;
-  --secondary: #C45C1A;
-  --accent: #E8871E;
+  --secondary: #D95F0E;
+  --accent: #F4A020;
   --bg-light: #FFFFFF;
-  --bg-dark: #1e3a5f;
+  --bg-dark: #1A4F8A;
   --text-dark: #4a4a4a;
   --text-light: #f0f9ff;
   --text-muted: #656565;
@@ -973,10 +973,10 @@ textarea::placeholder {
   --nav-text: #2B2622;
   --nav-text-hover: #C96A4A;
   --primary: #1A4F8A;
-  --secondary: #C45C1A;
-  --accent: #E8871E;
+  --secondary: #D95F0E;
+  --accent: #F4A020;
   --bg-light: #FFFFFF;
-  --bg-dark: #1e3a5f;
+  --bg-dark: #1A4F8A;
   --text-dark: #4a4a4a;
   --text-light: #f0f9ff;
   --text-muted: #656565;
@@ -2127,10 +2127,10 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 /* Footer Styles */
 .site-footer {
   --primary: #1A4F8A;
-  --secondary: #C45C1A;
-  --accent: #E8871E;
+  --secondary: #D95F0E;
+  --accent: #F4A020;
   --bg-light: #FFFFFF;
-  --bg-dark: #1e3a5f;
+  --bg-dark: #1A4F8A;
   --text-dark: #4a4a4a;
   --text-light: #f0f9ff;
   --text-muted: #656565;
@@ -3032,7 +3032,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-services-section .index-services-btn-secondary:hover {
-  background: #E8871E;
+  background: #F4A020;
   box-shadow: 0 18px 36px rgba(110, 143, 175, 0.28);
   transform: translateY(-2px);
 }
@@ -5951,11 +5951,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .mortgage-consulting-cta-section {
   position: relative;
   overflow: visible;
-  background-color: #6A432A;
+  background-color: #D95F0E;
   background-image:
     radial-gradient(ellipse at 80% 20%, rgba(201, 106, 74, 0.25) 0%, transparent 55%),
     radial-gradient(ellipse at 10% 80%, rgba(110, 143, 175, 0.12) 0%, transparent 50%),
-    linear-gradient(180deg, #C05A19 0%, #934514 100%);
+    linear-gradient(180deg, #D95F0E 0%, #A5480B 100%);
   color: var(--text-light);
   padding: 96px 24px;
   direction: rtl;
@@ -7232,7 +7232,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .about-cta-section .about-cta-badge {
   display: inline-block;
   background: rgba(201, 106, 74, 0.18);
-  color: #E8871E;
+  color: #F4A020;
   border: 1px solid rgba(201, 106, 74, 0.35);
   border-radius: 100px;
   padding: 6px 20px;
@@ -8368,9 +8368,9 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 
 /* Cookie Consent Customizations */
 :root {
-  --cc-btn-primary-bg: #E8871E;
-  --cc-btn-primary-border: #E8871E;
-  --cc-btn-primary-hover-bg: #E8871E;
+  --cc-btn-primary-bg: #F4A020;
+  --cc-btn-primary-border: #F4A020;
+  --cc-btn-primary-hover-bg: #F4A020;
 }
 
 #cc--main {
@@ -8680,6 +8680,8 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+
 
 
 /* === BUTTON TEXT OVERRIDES START === */
