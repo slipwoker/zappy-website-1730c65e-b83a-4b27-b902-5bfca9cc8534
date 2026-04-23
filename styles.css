@@ -137,16 +137,16 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 :root {
---primary: #1A4F8A;
+--primary: #8B6F47;
   --secondary: #D95F0E;
   --accent: #F4A020;
   --bg-light: #FFFFFF;
-  --bg-dark: #1A4F8A;
+  --bg-dark: #5C4A32;
   --text-dark: #4a4a4a;
-  --text-light: #f0f9ff;
-  --text-muted: #656565;
-  --border-light: #738398;
-  --border-dark: #1A4F8A;
+  --text-light: #FFF8F0;
+  --text-muted: #756555;
+  --border-light: #D95F0E;
+  --border-dark: #F4A020;
   --nav-bg: #F3EDE3;
   --nav-text: #2B2622;
   --nav-text-hover: #C96A4A;
@@ -169,7 +169,7 @@
   --transition-default: all 0.22s ease;
   --transition-hover: transform 0.22s ease, box-shadow 0.22s ease;
 
-  --gradient-primary: linear-gradient(180deg, #1C5493 0%, #184A82 100%);
+  --gradient-primary: linear-gradient(180deg, #92754B 0%, #846A44 100%);
   --gradient-gold-shine: linear-gradient(90deg, rgba(255,248,238,0) 0%, rgba(255,237,214,0.75) 52%, rgba(255,248,238,0) 100%);
   --gradient-secondary: linear-gradient(180deg, #F4A020 0%, #F06910 100%);
   --gradient-gold-accent: linear-gradient(135deg, #E9C08A 0%, #D7A56A 100%);
@@ -177,13 +177,13 @@
   --gradient-overlay-dark: linear-gradient(90deg, rgba(109,73,47,0.12) 0%, rgba(109,73,47,0.04) 100%);
   --gradient-light-section: linear-gradient(180deg, #FCF8F2 0%, #F2E7D8 100%);
   --gradient-overlay-light: linear-gradient(180deg, rgba(255,250,244,0.96) 0%, rgba(248,240,229,0.88) 100%);
-  --primary-color: #1A4F8A;
+  --primary-color: #8B6F47;
   --secondary-color: #D95F0E;
   --accent-color: #F4A020;
   --background-color: #FFFFFF;
-  --surface-color: #F0F4F9;
+  --surface-color: #F5EFE6;
   --text-color: #4a4a4a;
-  --text-secondary-color: #656565;
+  --text-secondary-color: #756555;
 }
 
 *,
@@ -721,16 +721,16 @@ textarea::placeholder {
   --nav-bg: #F3EDE3;
   --nav-text: #2B2622;
   --nav-text-hover: #C96A4A;
-  --primary: #1A4F8A;
+  --primary: #8B6F47;
   --secondary: #D95F0E;
   --accent: #F4A020;
   --bg-light: #FFFFFF;
-  --bg-dark: #1A4F8A;
+  --bg-dark: #5C4A32;
   --text-dark: #4a4a4a;
-  --text-light: #f0f9ff;
-  --text-muted: #656565;
-  --border-light: #738398;
-  --border-dark: #1A4F8A;
+  --text-light: #FFF8F0;
+  --text-muted: #756555;
+  --border-light: #D95F0E;
+  --border-dark: #F4A020;
 }
 
 .navbar {
@@ -849,7 +849,7 @@ textarea::placeholder {
 }
 
 .nav-cta-btn:hover {
-  background-color: #1A4F8A;
+  background-color: #8B6F47;
   transform: translateY(-1px);
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
 }
@@ -972,16 +972,16 @@ textarea::placeholder {
   --nav-bg: #F3EDE3;
   --nav-text: #2B2622;
   --nav-text-hover: #C96A4A;
-  --primary: #1A4F8A;
+  --primary: #8B6F47;
   --secondary: #D95F0E;
   --accent: #F4A020;
   --bg-light: #FFFFFF;
-  --bg-dark: #1A4F8A;
+  --bg-dark: #5C4A32;
   --text-dark: #4a4a4a;
-  --text-light: #f0f9ff;
-  --text-muted: #656565;
-  --border-light: #738398;
-  --border-dark: #1A4F8A;
+  --text-light: #FFF8F0;
+  --text-muted: #756555;
+  --border-light: #D95F0E;
+  --border-dark: #F4A020;
 }
 
 .navbar {
@@ -1100,7 +1100,7 @@ textarea::placeholder {
 }
 
 .nav-cta-btn:hover {
-  background-color: #1A4F8A;
+  background-color: #8B6F47;
   transform: translateY(-1px);
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
 }
@@ -1289,7 +1289,7 @@ textarea::placeholder {
 .navbar a:focus-visible,
 .navbar button:focus-visible,
 .nav-menu a:focus-visible {
-  outline: 2px solid var(--primary-color, var(--primary, #1A4F8A));
+  outline: 2px solid var(--primary-color, var(--primary, #8B6F47));
   outline-offset: 2px;
 }
 
@@ -2126,16 +2126,16 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 /* Footer Styles */
 .site-footer {
-  --primary: #1A4F8A;
+  --primary: #8B6F47;
   --secondary: #D95F0E;
   --accent: #F4A020;
   --bg-light: #FFFFFF;
-  --bg-dark: #1A4F8A;
+  --bg-dark: #5C4A32;
   --text-dark: #4a4a4a;
-  --text-light: #f0f9ff;
-  --text-muted: #656565;
-  --border-light: #738398;
-  --border-dark: #1A4F8A;
+  --text-light: #FFF8F0;
+  --text-muted: #756555;
+  --border-light: #D95F0E;
+  --border-dark: #F4A020;
   font-family: 'Rubik', sans-serif;
   direction: rtl;
   background-color: var(--bg-dark);
@@ -2366,7 +2366,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .cta-btn:hover {
-  background: #1A4F8A;
+  background: #8B6F47;
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(201, 106, 74, 0.4);
 }
@@ -2649,14 +2649,14 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-hero-section .index-hero-btn-primary {
-  background: linear-gradient(180deg, #1C5493 0%, #1A4F8A 100%);
+  background: linear-gradient(180deg, #92754B 0%, #8B6F47 100%);
   color: #FFF9F2;
   border: none;
   box-shadow: 0 8px 18px rgba(213, 109, 52, 0.22);
 }
 
 .index-hero-section .index-hero-btn-primary:hover {
-  background: linear-gradient(180deg, #1A4F8A 0%, #143E6C 100%);
+  background: linear-gradient(180deg, #8B6F47 0%, #735C3B 100%);
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.28);
   transform: translateY(-2px);
   color: #FFF9F2;
@@ -3020,7 +3020,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-services-section .index-services-btn-primary:hover {
-  background: #1A4F8A;
+  background: #8B6F47;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
   transform: translateY(-2px);
 }
@@ -3092,7 +3092,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-services-section .index-services-reassurance-link:hover {
-  color: #1A4F8A;
+  color: #7d6440;
   gap: 10px;
 }
 
@@ -3286,7 +3286,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .index-process-panel-icon {
   background: rgba(111,125,78,0.15);
   border-color: rgba(111,125,78,0.25);
-  color: #1A4F8A;
+  color: #8B6F47;
 }
 
 .index-process-panel-title-wrap {
@@ -3350,7 +3350,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .index-process-step-marker {
   background: rgba(111,125,78,0.18);
   border-color: rgba(111,125,78,0.35);
-  color: #1A4F8A;
+  color: #8B6F47;
 }
 
 .index-process-step-content {
@@ -3821,8 +3821,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-cta-section .index-cta-btn-primary:hover {
-  background: #1A4F8A;
-  border-color: #1A4F8A;
+  background: #8B6F47;
+  border-color: #8B6F47;
   box-shadow: 0 20px 40px rgba(213,109,52,0.32);
   transform: translateY(-2px);
   color: #FFF9F2;
@@ -4003,7 +4003,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .bookkeeping-annual-reports-intro-section .bari-btn-primary:hover {
-  background: #1A4F8A;
+  background: #8B6F47;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
   transform: translateY(-2px);
 }
@@ -4969,7 +4969,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .bookkeeping-annual-reports-cta-section .bar-btn-primary:hover {
-  background: #1A4F8A;
+  background: #8B6F47;
   box-shadow: 0 18px 36px rgba(213,109,52,0.22);
   transform: translateY(-2px);
 }
@@ -5102,7 +5102,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .mortgage-consulting-intro-section .mc-btn-primary:hover {
-  background: #1A4F8A;
+  background: #8B6F47;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
   transform: translateY(-2px);
   color: #FFF9F2;
@@ -5195,7 +5195,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .mortgage-consulting-intro-section .mc-floating-icon {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, var(--primary) 0%, #154172 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #78603D 100%);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -5891,7 +5891,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .mortgage-consulting-scenarios-section .mcs-btn-primary:hover {
-  background: #1A4F8A;
+  background: #8B6F47;
   box-shadow: 0 18px 36px rgba(213,109,52,0.22);
   transform: translateY(-2px);
   color: #FFF9F2;
@@ -6053,7 +6053,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .mortgage-consulting-cta-section .mortgage-cta-btn:hover {
-  background: #1A4F8A;
+  background: #8B6F47;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.32);
   transform: translateY(-2px);
 }
@@ -6235,7 +6235,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .about-profile-section .about-profile-cta:hover {
-  background: #1A4F8A;
+  background: #8B6F47;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.28);
   transform: translateY(-2px);
 }
@@ -6554,11 +6554,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .about-expertise-section .expertise-panel--accounting .expertise-panel__title {
-  color: #1A4F8A;
+  color: #846a44;
 }
 
 .about-expertise-section .expertise-panel--mortgage .expertise-panel__title {
-  color: #1A4F8A;
+  color: #846a44;
 }
 
 .about-expertise-section .expertise-panel__text {
@@ -7282,7 +7282,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .about-cta-section .about-cta-btn:hover {
-  background: #1A4F8A;
+  background: #8B6F47;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.32);
   transform: translateY(-2px);
 }
@@ -7711,7 +7711,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   width: 52px;
   height: 52px;
   border-radius: var(--radius-badge, 100px);
-  background: linear-gradient(135deg, var(--primary) 0%, #123761 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #6B5536 100%);
   box-shadow: 0 6px 18px rgba(201,106,74,0.30);
   flex-shrink: 0;
 }
@@ -7977,7 +7977,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .contact-contact-form-section .contact-submit-btn:hover {
-  background: #1A4F8A;
+  background: #8B6F47;
   box-shadow: 0 18px 36px rgba(213,109,52,0.22);
   transform: translateY(-2px);
 }
@@ -8680,6 +8680,8 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+
 
 
 
