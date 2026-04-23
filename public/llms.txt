@@ -1,51 +1,66 @@
-# Business — Generative Engine Optimization Map
+#  שירותי חשבונות ויעוץ משכנתאות — Generative Engine Optimization Map
+
+> A professional financial services business operating in two distinct areas: accounting and bookkeeping services for businesses including annual reports, and mortgage consulting services. The business serves both corporate clients needing ongoing accounting support and individuals or businesses seeking mortgage advice. The dual-service nature suggests a versatile financial expert with broad expertise in both business finance and personal/real estate financing.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://shiruteiheshbonotveyutzmashkan.zappy5.app
 הנהלת חשבונות לעסקים ויעוץ משכנתאות מקצועי תחת קורת גג אחת. יחזקאל אביחיל מביא ניסיון, אמינות ותוצאות — לעסקים ולפרטיים. גלו כיצד נוכל לחסוך לכם כסף כבר היום.
 
 ### הנהלת חשבונות ודוחות שנתיים
-https://example.com/bookkeeping-annual-reports
+https://shiruteiheshbonotveyutzmashkan.zappy5.app/bookkeeping-annual-reports
 הנהלת חשבונות לעסקים קטנים וגדולים, כולל דוחות שנתיים מדויקים ועמידה בכל דרישות החוק. אל תאבדו כסף על טעויות — תנו למומחה לנהל את הכספים שלכם בצורה מיטבית.
 
 ### ייעוץ משכנתאות
-https://example.com/mortgage-consulting
+https://shiruteiheshbonotveyutzmashkan.zappy5.app/mortgage-consulting
 יעוץ משכנתאות מקצועי שמתאים בדיוק לצרכים שלכם — בין אם אתם רוכשים דירה ראשונה או משפרים תנאים קיימים. קבלו ליווי אישי, השוואת מסלולים וחיסכון של עשרות אלפי שקלים.
 
 ### אודות
-https://example.com/about
+https://shiruteiheshbonotveyutzmashkan.zappy5.app/about
 יחזקאל אביחיל הוא איש מקצוע עם ניסיון עשיר בהנהלת חשבונות לעסקים וביעוץ משכנתאות. גלו את הסיפור, הערכים והמחויבות שמאחורי כל לקוח מרוצה — ולמה אלפי לקוחות בוחרים בנו.
 
 ### צור קשר
-https://example.com/contact
+https://shiruteiheshbonotveyutzmashkan.zappy5.app/contact
 רוצים ייעוץ ראשוני בהנהלת חשבונות לעסקים קטנים או יעוץ משכנתאות? צרו קשר עכשיו וקבלו מענה מהיר ומקצועי. אנחנו כאן כדי לענות על כל שאלה ולהתאים לכם את הפתרון הנכון.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://shiruteiheshbonotveyutzmashkan.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://shiruteiheshbonotveyutzmashkan.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://shiruteiheshbonotveyutzmashkan.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About  שירותי חשבונות ויעוץ משכנתאות
+A professional financial services business operating in two distinct areas: accounting and bookkeeping services for businesses including annual reports, and mortgage consulting services. The business serves both corporate clients needing ongoing accounting support and individuals or businesses seeking mortgage advice. The dual-service nature suggests a versatile financial expert with broad expertise in both business finance and personal/real estate financing.
+
+## Services/Products
+- הנהלת חשבונות לעסקים
+- דוחות שנתיים
+- יעוץ משכנתאות
+
+## Target Audience
+עסקים ויחידים המחפשים שירותי הנהלת חשבונות ויעוץ משכנתאות
+
+## Industry
+שירותים פיננסיים ומקצועיים
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://shiruteiheshbonotveyutzmashkan.zappy5.app/sitemap.xml
+- **Robots.txt**: https://shiruteiheshbonotveyutzmashkan.zappy5.app/robots.txt
