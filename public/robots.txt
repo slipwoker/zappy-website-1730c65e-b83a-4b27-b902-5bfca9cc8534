@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shiruteiheshbonotveyutzmashkan.zappy5.app/sitemap.xml
+Sitemap: https://avihail-tax.co.il/sitemap.xml

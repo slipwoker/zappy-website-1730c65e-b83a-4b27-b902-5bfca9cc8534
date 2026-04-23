@@ -1,66 +1,51 @@
-#  שירותי חשבונות ויעוץ משכנתאות — Generative Engine Optimization Map
-
-> A professional financial services business operating in two distinct areas: accounting and bookkeeping services for businesses including annual reports, and mortgage consulting services. The business serves both corporate clients needing ongoing accounting support and individuals or businesses seeking mortgage advice. The dual-service nature suggests a versatile financial expert with broad expertise in both business finance and personal/real estate financing.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### בית
-https://shiruteiheshbonotveyutzmashkan.zappy5.app
+https://avihail-tax.co.il
 הנהלת חשבונות לעסקים ויעוץ משכנתאות מקצועי תחת קורת גג אחת. יחזקאל אביחיל מביא ניסיון, אמינות ותוצאות — לעסקים ולפרטיים. גלו כיצד נוכל לחסוך לכם כסף כבר היום.
 
 ### הנהלת חשבונות ודוחות שנתיים
-https://shiruteiheshbonotveyutzmashkan.zappy5.app/bookkeeping-annual-reports
+https://avihail-tax.co.il/bookkeeping-annual-reports
 הנהלת חשבונות לעסקים קטנים וגדולים, כולל דוחות שנתיים מדויקים ועמידה בכל דרישות החוק. אל תאבדו כסף על טעויות — תנו למומחה לנהל את הכספים שלכם בצורה מיטבית.
 
 ### ייעוץ משכנתאות
-https://shiruteiheshbonotveyutzmashkan.zappy5.app/mortgage-consulting
+https://avihail-tax.co.il/mortgage-consulting
 יעוץ משכנתאות מקצועי שמתאים בדיוק לצרכים שלכם — בין אם אתם רוכשים דירה ראשונה או משפרים תנאים קיימים. קבלו ליווי אישי, השוואת מסלולים וחיסכון של עשרות אלפי שקלים.
 
 ### אודות
-https://shiruteiheshbonotveyutzmashkan.zappy5.app/about
+https://avihail-tax.co.il/about
 יחזקאל אביחיל הוא איש מקצוע עם ניסיון עשיר בהנהלת חשבונות לעסקים וביעוץ משכנתאות. גלו את הסיפור, הערכים והמחויבות שמאחורי כל לקוח מרוצה — ולמה אלפי לקוחות בוחרים בנו.
 
 ### צור קשר
-https://shiruteiheshbonotveyutzmashkan.zappy5.app/contact
+https://avihail-tax.co.il/contact
 רוצים ייעוץ ראשוני בהנהלת חשבונות לעסקים קטנים או יעוץ משכנתאות? צרו קשר עכשיו וקבלו מענה מהיר ומקצועי. אנחנו כאן כדי לענות על כל שאלה ולהתאים לכם את הפתרון הנכון.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://shiruteiheshbonotveyutzmashkan.zappy5.app/privacy
+https://avihail-tax.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://shiruteiheshbonotveyutzmashkan.zappy5.app/terms
+https://avihail-tax.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://shiruteiheshbonotveyutzmashkan.zappy5.app/accessibility
+https://avihail-tax.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About  שירותי חשבונות ויעוץ משכנתאות
-A professional financial services business operating in two distinct areas: accounting and bookkeeping services for businesses including annual reports, and mortgage consulting services. The business serves both corporate clients needing ongoing accounting support and individuals or businesses seeking mortgage advice. The dual-service nature suggests a versatile financial expert with broad expertise in both business finance and personal/real estate financing.
-
-## Services/Products
-- הנהלת חשבונות לעסקים
-- דוחות שנתיים
-- יעוץ משכנתאות
-
-## Target Audience
-עסקים ויחידים המחפשים שירותי הנהלת חשבונות ויעוץ משכנתאות
-
-## Industry
-שירותים פיננסיים ומקצועיים
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://shiruteiheshbonotveyutzmashkan.zappy5.app/sitemap.xml
-- **Robots.txt**: https://shiruteiheshbonotveyutzmashkan.zappy5.app/robots.txt
+- **Sitemap**: https://avihail-tax.co.il/sitemap.xml
+- **Robots.txt**: https://avihail-tax.co.il/robots.txt
