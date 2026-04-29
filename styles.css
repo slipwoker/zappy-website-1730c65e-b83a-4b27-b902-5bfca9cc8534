@@ -137,16 +137,16 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 :root {
---primary: #1B2A4A;
-  --secondary: #4A5568;
-  --accent: #2B6CB0;
-  --bg-light: #FFFFFF;
-  --bg-dark: #1A202C;
-  --text-dark: #1A202C;
-  --text-light: #F7FAFC;
-  --text-muted: #5c687a;
-  --border-light: #8e959d;
-  --border-dark: #646f82;
+--primary: #1A3A6B;
+  --secondary: #2563EB;
+  --accent: #3B82F6;
+  --bg-light: #F0F6FF;
+  --bg-dark: #1A3A6B;
+  --text-dark: #0F172A;
+  --text-light: #EFF6FF;
+  --text-muted: #2563EB;
+  --border-light: #3B82F6;
+  --border-dark: #3B82F6;
   --nav-bg: #F3EDE3;
   --nav-text: #2B2622;
   --nav-text-hover: #C96A4A;
@@ -169,21 +169,21 @@
   --transition-default: all 0.22s ease;
   --transition-hover: transform 0.22s ease, box-shadow 0.22s ease;
 
-  --gradient-primary: linear-gradient(180deg, #1E2F52 0%, #182643 100%);
+  --gradient-primary: linear-gradient(180deg, #1C3F74 0%, #183663 100%);
   --gradient-gold-shine: linear-gradient(90deg, rgba(255,248,238,0) 0%, rgba(255,237,214,0.75) 52%, rgba(255,248,238,0) 100%);
-  --gradient-secondary: linear-gradient(180deg, #2B6CB0 0%, #546177 100%);
+  --gradient-secondary: linear-gradient(180deg, #3B82F6 0%, #3C73ED 100%);
   --gradient-gold-accent: linear-gradient(135deg, #E9C08A 0%, #D7A56A 100%);
-  --gradient-dark-section: linear-gradient(180deg, #4A5568 0%, #333B48 100%);
+  --gradient-dark-section: linear-gradient(180deg, #2563EB 0%, #333B48 100%);
   --gradient-overlay-dark: linear-gradient(90deg, rgba(109,73,47,0.12) 0%, rgba(109,73,47,0.04) 100%);
   --gradient-light-section: linear-gradient(180deg, #FCF8F2 0%, #F2E7D8 100%);
   --gradient-overlay-light: linear-gradient(180deg, rgba(255,250,244,0.96) 0%, rgba(248,240,229,0.88) 100%);
-  --primary-color: #1B2A4A;
-  --secondary-color: #4A5568;
-  --accent-color: #2B6CB0;
-  --background-color: #FFFFFF;
-  --surface-color: #F0F4F8;
-  --text-color: #1A202C;
-  --text-secondary-color: #5c687a;
+  --primary-color: #1A3A6B;
+  --secondary-color: #2563EB;
+  --accent-color: #3B82F6;
+  --background-color: #F0F6FF;
+  --surface-color: #DBEAFE;
+  --text-color: #0F172A;
+  --text-secondary-color: #2563EB;
 }
 
 *,
@@ -721,16 +721,16 @@ textarea::placeholder {
   --nav-bg: #F3EDE3;
   --nav-text: #2B2622;
   --nav-text-hover: #C96A4A;
-  --primary: #1B2A4A;
-  --secondary: #4A5568;
-  --accent: #2B6CB0;
-  --bg-light: #FFFFFF;
-  --bg-dark: #1A202C;
-  --text-dark: #1A202C;
-  --text-light: #F7FAFC;
-  --text-muted: #5c687a;
-  --border-light: #8e959d;
-  --border-dark: #646f82;
+  --primary: #1A3A6B;
+  --secondary: #2563EB;
+  --accent: #3B82F6;
+  --bg-light: #F0F6FF;
+  --bg-dark: #1A3A6B;
+  --text-dark: #0F172A;
+  --text-light: #EFF6FF;
+  --text-muted: #2563EB;
+  --border-light: #3B82F6;
+  --border-dark: #3B82F6;
 }
 
 .navbar {
@@ -849,7 +849,7 @@ textarea::placeholder {
 }
 
 .nav-cta-btn:hover {
-  background-color: #1B2A4A;
+  background-color: #1A3A6B;
   transform: translateY(-1px);
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
 }
@@ -972,16 +972,16 @@ textarea::placeholder {
   --nav-bg: #F3EDE3;
   --nav-text: #2B2622;
   --nav-text-hover: #C96A4A;
-  --primary: #1B2A4A;
-  --secondary: #4A5568;
-  --accent: #2B6CB0;
-  --bg-light: #FFFFFF;
-  --bg-dark: #1A202C;
-  --text-dark: #1A202C;
-  --text-light: #F7FAFC;
-  --text-muted: #5c687a;
-  --border-light: #8e959d;
-  --border-dark: #646f82;
+  --primary: #1A3A6B;
+  --secondary: #2563EB;
+  --accent: #3B82F6;
+  --bg-light: #F0F6FF;
+  --bg-dark: #1A3A6B;
+  --text-dark: #0F172A;
+  --text-light: #EFF6FF;
+  --text-muted: #2563EB;
+  --border-light: #3B82F6;
+  --border-dark: #3B82F6;
 }
 
 .navbar {
@@ -1100,7 +1100,7 @@ textarea::placeholder {
 }
 
 .nav-cta-btn:hover {
-  background-color: #1B2A4A;
+  background-color: #1A3A6B;
   transform: translateY(-1px);
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
 }
@@ -1289,7 +1289,7 @@ textarea::placeholder {
 .navbar a:focus-visible,
 .navbar button:focus-visible,
 .nav-menu a:focus-visible {
-  outline: 2px solid var(--primary-color, var(--primary, #1B2A4A));
+  outline: 2px solid var(--primary-color, var(--primary, #1A3A6B));
   outline-offset: 2px;
 }
 
@@ -2126,16 +2126,16 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 /* Footer Styles */
 .site-footer {
-  --primary: #1B2A4A;
-  --secondary: #4A5568;
-  --accent: #2B6CB0;
-  --bg-light: #FFFFFF;
-  --bg-dark: #1A202C;
-  --text-dark: #1A202C;
-  --text-light: #F7FAFC;
-  --text-muted: #5c687a;
-  --border-light: #8e959d;
-  --border-dark: #646f82;
+  --primary: #1A3A6B;
+  --secondary: #2563EB;
+  --accent: #3B82F6;
+  --bg-light: #F0F6FF;
+  --bg-dark: #1A3A6B;
+  --text-dark: #0F172A;
+  --text-light: #EFF6FF;
+  --text-muted: #2563EB;
+  --border-light: #3B82F6;
+  --border-dark: #3B82F6;
   font-family: 'Rubik', sans-serif;
   direction: rtl;
   background-color: var(--bg-dark);
@@ -2366,7 +2366,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .cta-btn:hover {
-  background: #1B2A4A;
+  background: #1A3A6B;
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(201, 106, 74, 0.4);
 }
@@ -2649,14 +2649,14 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-hero-section .index-hero-btn-primary {
-  background: linear-gradient(180deg, #1E2F52 0%, #1B2A4A 100%);
+  background: linear-gradient(180deg, #1C3F74 0%, #1A3A6B 100%);
   color: #FFF9F2;
   border: none;
   box-shadow: 0 8px 18px rgba(213, 109, 52, 0.22);
 }
 
 .index-hero-section .index-hero-btn-primary:hover {
-  background: linear-gradient(180deg, #1B2A4A 0%, #111B30 100%);
+  background: linear-gradient(180deg, #1A3A6B 0%, #132A4E 100%);
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.28);
   transform: translateY(-2px);
   color: #FFF9F2;
@@ -3020,7 +3020,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-services-section .index-services-btn-primary:hover {
-  background: #1B2A4A;
+  background: #1A3A6B;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
   transform: translateY(-2px);
 }
@@ -3032,7 +3032,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-services-section .index-services-btn-secondary:hover {
-  background: #2B6CB0;
+  background: #3B82F6;
   box-shadow: 0 18px 36px rgba(110, 143, 175, 0.28);
   transform: translateY(-2px);
 }
@@ -3092,7 +3092,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-services-section .index-services-reassurance-link:hover {
-  color: #1B2A4A;
+  color: #1A3A6B;
   gap: 10px;
 }
 
@@ -3286,7 +3286,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .index-process-panel-icon {
   background: rgba(111,125,78,0.15);
   border-color: rgba(111,125,78,0.25);
-  color: #1B2A4A;
+  color: #1A3A6B;
 }
 
 .index-process-panel-title-wrap {
@@ -3350,7 +3350,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .index-process-step-marker {
   background: rgba(111,125,78,0.18);
   border-color: rgba(111,125,78,0.35);
-  color: #1B2A4A;
+  color: #1A3A6B;
 }
 
 .index-process-step-content {
@@ -3821,8 +3821,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-cta-section .index-cta-btn-primary:hover {
-  background: #1B2A4A;
-  border-color: #1B2A4A;
+  background: #1A3A6B;
+  border-color: #1A3A6B;
   box-shadow: 0 20px 40px rgba(213,109,52,0.32);
   transform: translateY(-2px);
   color: #FFF9F2;
@@ -4003,7 +4003,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .bookkeeping-annual-reports-intro-section .bari-btn-primary:hover {
-  background: #1B2A4A;
+  background: #1A3A6B;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
   transform: translateY(-2px);
 }
@@ -4969,7 +4969,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .bookkeeping-annual-reports-cta-section .bar-btn-primary:hover {
-  background: #1B2A4A;
+  background: #1A3A6B;
   box-shadow: 0 18px 36px rgba(213,109,52,0.22);
   transform: translateY(-2px);
 }
@@ -5102,7 +5102,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .mortgage-consulting-intro-section .mc-btn-primary:hover {
-  background: #1B2A4A;
+  background: #1A3A6B;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.22);
   transform: translateY(-2px);
   color: #FFF9F2;
@@ -5195,7 +5195,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .mortgage-consulting-intro-section .mc-floating-icon {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, var(--primary) 0%, #131E35 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #142D54 100%);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -5891,7 +5891,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .mortgage-consulting-scenarios-section .mcs-btn-primary:hover {
-  background: #1B2A4A;
+  background: #1A3A6B;
   box-shadow: 0 18px 36px rgba(213,109,52,0.22);
   transform: translateY(-2px);
   color: #FFF9F2;
@@ -5951,11 +5951,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .mortgage-consulting-cta-section {
   position: relative;
   overflow: visible;
-  background-color: #4A5568;
+  background-color: #2563EB;
   background-image:
     radial-gradient(ellipse at 80% 20%, rgba(201, 106, 74, 0.25) 0%, transparent 55%),
     radial-gradient(ellipse at 10% 80%, rgba(110, 143, 175, 0.12) 0%, transparent 50%),
-    linear-gradient(180deg, #4A5568 0%, #333B48 100%);
+    linear-gradient(180deg, #2563EB 0%, #333B48 100%);
   color: var(--text-light);
   padding: 96px 24px;
   direction: rtl;
@@ -6053,7 +6053,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .mortgage-consulting-cta-section .mortgage-cta-btn:hover {
-  background: #1B2A4A;
+  background: #1A3A6B;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.32);
   transform: translateY(-2px);
 }
@@ -6235,7 +6235,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .about-profile-section .about-profile-cta:hover {
-  background: #1B2A4A;
+  background: #1A3A6B;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.28);
   transform: translateY(-2px);
 }
@@ -6554,11 +6554,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .about-expertise-section .expertise-panel--accounting .expertise-panel__title {
-  color: #1B2A4A;
+  color: #1A3A6B;
 }
 
 .about-expertise-section .expertise-panel--mortgage .expertise-panel__title {
-  color: #1B2A4A;
+  color: #1A3A6B;
 }
 
 .about-expertise-section .expertise-panel__text {
@@ -7232,7 +7232,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .about-cta-section .about-cta-badge {
   display: inline-block;
   background: rgba(201, 106, 74, 0.18);
-  color: #5795d6;
+  color: #4f8ef7;
   border: 1px solid rgba(201, 106, 74, 0.35);
   border-radius: 100px;
   padding: 6px 20px;
@@ -7282,7 +7282,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .about-cta-section .about-cta-btn:hover {
-  background: #1B2A4A;
+  background: #1A3A6B;
   box-shadow: 0 18px 36px rgba(213, 109, 52, 0.32);
   transform: translateY(-2px);
 }
@@ -7977,7 +7977,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .contact-contact-form-section .contact-submit-btn:hover {
-  background: #1B2A4A;
+  background: #1A3A6B;
   box-shadow: 0 18px 36px rgba(213,109,52,0.22);
   transform: translateY(-2px);
 }
@@ -8368,9 +8368,9 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 
 /* Cookie Consent Customizations */
 :root {
-  --cc-btn-primary-bg: #2B6CB0;
-  --cc-btn-primary-border: #2B6CB0;
-  --cc-btn-primary-hover-bg: #2B6CB0;
+  --cc-btn-primary-bg: #3B82F6;
+  --cc-btn-primary-border: #3B82F6;
+  --cc-btn-primary-hover-bg: #3B82F6;
 }
 
 #cc--main {
@@ -8680,6 +8680,8 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+
 
 
 
