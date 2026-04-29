@@ -142,9 +142,9 @@
   --accent: #3B82F6;
   --bg-light: #F0F6FF;
   --bg-dark: #1A3A6B;
-  --text-dark: #0F172A;
+  --text-dark: #4A4A4A;
   --text-light: #EFF6FF;
-  --text-muted: #2563EB;
+  --text-muted: #656565;
   --border-light: #3B82F6;
   --border-dark: #3B82F6;
   --nav-bg: #F0F6FF;
@@ -171,7 +171,7 @@
 
   --gradient-primary: linear-gradient(180deg, #1C3F74 0%, #183663 100%);
   --gradient-gold-shine: linear-gradient(90deg, rgba(255,248,238,0) 0%, rgba(255,237,214,0.75) 52%, rgba(255,248,238,0) 100%);
-  --gradient-secondary: linear-gradient(180deg, #3B82F6 0%, #3C73ED 100%);
+  --gradient-secondary: linear-gradient(180deg, #3B82F6 0%, #337DF6 100%);
   --gradient-gold-accent: linear-gradient(135deg, #E9C08A 0%, #D7A56A 100%);
   --gradient-dark-section: linear-gradient(180deg, #2563EB 0%, #333B48 100%);
   --gradient-overlay-dark: linear-gradient(90deg, rgba(109,73,47,0.12) 0%, rgba(109,73,47,0.04) 100%);
@@ -182,8 +182,8 @@
   --accent-color: #3B82F6;
   --background-color: #F0F6FF;
   --surface-color: #DBEAFE;
-  --text-color: #0F172A;
-  --text-secondary-color: #2563EB;
+  --text-color: #4A4A4A;
+  --text-secondary-color: #656565;
 }
 
 *,
@@ -726,9 +726,9 @@ textarea::placeholder {
   --accent: #3B82F6;
   --bg-light: #F0F6FF;
   --bg-dark: #1A3A6B;
-  --text-dark: #0F172A;
+  --text-dark: #4A4A4A;
   --text-light: #EFF6FF;
-  --text-muted: #2563EB;
+  --text-muted: #656565;
   --border-light: #3B82F6;
   --border-dark: #3B82F6;
 }
@@ -977,9 +977,9 @@ textarea::placeholder {
   --accent: #3B82F6;
   --bg-light: #F0F6FF;
   --bg-dark: #1A3A6B;
-  --text-dark: #0F172A;
+  --text-dark: #4A4A4A;
   --text-light: #EFF6FF;
-  --text-muted: #2563EB;
+  --text-muted: #656565;
   --border-light: #3B82F6;
   --border-dark: #3B82F6;
 }
@@ -2131,9 +2131,9 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   --accent: #3B82F6;
   --bg-light: #F0F6FF;
   --bg-dark: #1A3A6B;
-  --text-dark: #0F172A;
+  --text-dark: #4A4A4A;
   --text-light: #EFF6FF;
-  --text-muted: #2563EB;
+  --text-muted: #656565;
   --border-light: #3B82F6;
   --border-dark: #3B82F6;
   font-family: 'Rubik', sans-serif;
@@ -8690,10 +8690,7 @@ body.accessibility-widget-visible ._access-menu {
 
 
 
-/* === BUTTON TEXT OVERRIDES START === */
-.navbar .nav-cta-btn,
-.nav-cta-btn { color: #FFFFFF !important; }
-/* === BUTTON TEXT OVERRIDES END === */
+
 
 /* === NAVBAR STYLE OVERRIDES START === */
 .navbar { background-color: #F0F6FF !important; }
@@ -8875,6 +8872,15 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
   }
 }
 /* === NAVBAR STYLE OVERRIDES END === */
+
+
+
+
+/* === BUTTON TEXT OVERRIDES START === */
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #FFFFFF !important; }
+/* === BUTTON TEXT OVERRIDES END === */
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
