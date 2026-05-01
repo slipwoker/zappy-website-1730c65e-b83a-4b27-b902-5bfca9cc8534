@@ -1249,8 +1249,8 @@ window.onload = function() {
                 '[pinterest_handle]',
                 // Old format (full URL placeholders)
                 'https://facebook.com/יועץ משכנתאות יחזקאל אביחיל',
-                '[social instagram]',
-                '[social_instagram]',
+                'https://instagram.com/avihail_yehezkel',
+                'https://instagram.com/avihail_yehezkel',
                 'https://wa.me/972547450503',
                 'https://wa.me/972547450503',
                 '[social_twitter]',
