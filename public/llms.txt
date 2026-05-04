@@ -1,4 +1,4 @@
-#  שירותי חשבונות ויעוץ משכנתאות — Generative Engine Optimization Map
+#  שירותי חשבונות ויעוץ משכנתאות-יחזקאל אביחיל  — Generative Engine Optimization Map
 
 > A professional financial services business operating in two distinct areas: accounting and bookkeeping services for businesses including annual reports, and mortgage consulting services. The business serves both corporate clients needing ongoing accounting support and individuals or businesses seeking mortgage advice. The dual-service nature suggests a versatile financial expert with broad expertise in both business finance and personal/real estate financing.
 
@@ -65,7 +65,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About  שירותי חשבונות ויעוץ משכנתאות
+## About  שירותי חשבונות ויעוץ משכנתאות-יחזקאל אביחיל 
 A professional financial services business operating in two distinct areas: accounting and bookkeeping services for businesses including annual reports, and mortgage consulting services. The business serves both corporate clients needing ongoing accounting support and individuals or businesses seeking mortgage advice. The dual-service nature suggests a versatile financial expert with broad expertise in both business finance and personal/real estate financing.
 
 ## Services/Products
