@@ -223,6 +223,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="צעד אחד קטן לשינוי פיננסי גדול — יחזקאל אביחיל שירותי חשבונות ויעוץ משכנתאות">
     <meta name="twitter:description" content="צרו קשר לייעוץ ראשוני בהנהלת חשבונות לעסקים או ייעוץ משכנתאות. מענה מהיר ומקצועי — ללא התחייבות ועלות ראשונית.">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://avihail-tax.co.il#organization","name":" שירותי חשבונות ויעוץ משכנתאות","url":"https://avihail-tax.co.il","description":"A professional financial services business operating in two distinct areas: accounting and bookkeeping services for businesses including annual reports, and mortgage consulting services. The business serves both corporate clients needing ongoing accounting support and individuals or businesses seeking mortgage advice. The dual-service nature suggests a versatile financial expert with broad expertise in both business finance and personal/real estate financing.","address":{"@type":"PostalAddress","streetAddress":"עזרא גבאי 3, פתח תקווה, ישראל"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"hezi.avihail@gmail.com","telephone":"054-7450503"}]},{"@type":"WebSite","@id":"https://avihail-tax.co.il#website","url":"https://avihail-tax.co.il","name":" שירותי חשבונות ויעוץ משכנתאות","publisher":{"@id":"https://avihail-tax.co.il#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://avihail-tax.co.il"},{"@type":"ListItem","position":2,"name":"Contact","item":"https://avihail-tax.co.il/contact"}]},{"@type":"ContactPage","@id":"https://avihail-tax.co.il/contact#contactpage","url":"https://avihail-tax.co.il/contact","name":"צעד אחד קטן לשינוי פיננסי גדול — יחזקאל אביחיל שירותי חשבונות ויעוץ משכנתאות","mainEntity":{"@id":"https://avihail-tax.co.il#organization"},"potentialAction":{"@type":"CommunicateAction","target":{"@type":"EntryPoint","urlTemplate":"https://avihail-tax.co.il/api/email/contact-form","actionPlatform":["http/method=POST"],"contentType":"application/json"},"instrument":[{"@type":"PropertyValue","name":"name","propertyID":"text","valueRequired":true,"description":"הכניסו את שמכם המלא"},{"@type":"PropertyValue","name":"email","propertyID":"email","valueRequired":true,"description":"example@email.com"},{"@type":"PropertyValue","name":"phone","propertyID":"tel","valueRequired":false,"description":"05X-XXXXXXX"},{"@type":"PropertyValue","name":"message","propertyID":"textarea","valueRequired":true,"description":"ספרו לנו במה תרצו עזרה — הנהלת חשבונות, דוחות שנתיים, יעוץ משכנתאות, או כל שאלה אחרת..."},{"@type":"PropertyValue","name":"privacy_consent","propertyID":"checkbox","valueRequired":true}]}}]}</script>
     <meta property="og:type" content="website">
   <meta property="og:locale" content="he_IL">
   
@@ -298,11 +299,17 @@
     </style>
 
     <style id="zappy-widget-visibility">
-      #mic-access-tool-general-button, .mic-access-tool-general-button,
-      #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-      ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-      #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-        display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
       }
     </style>
 </head>

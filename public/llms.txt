@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+#  שירותי חשבונות ויעוץ משכנתאות — Generative Engine Optimization Map
+
+> A professional financial services business operating in two distinct areas: accounting and bookkeeping services for businesses including annual reports, and mortgage consulting services. The business serves both corporate clients needing ongoing accounting support and individuals or businesses seeking mortgage advice. The dual-service nature suggests a versatile financial expert with broad expertise in both business finance and personal/real estate financing.
 
 ---
 
@@ -40,12 +42,47 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## How to Contact Us
 
-## About Business
+- Email: hezi.avihail@gmail.com
+- Phone: 054-7450503
+- Phone (tel): tel:0547450503
+- Address: עזרא גבאי 3, פתח תקווה, ישראל
+
+### Contact form
+- URL: https://avihail-tax.co.il/contact
+- Endpoint: https://avihail-tax.co.il/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://avihail-tax.co.il/sitemap.xml
-- **Robots.txt**: https://avihail-tax.co.il/robots.txt
+## About  שירותי חשבונות ויעוץ משכנתאות
+A professional financial services business operating in two distinct areas: accounting and bookkeeping services for businesses including annual reports, and mortgage consulting services. The business serves both corporate clients needing ongoing accounting support and individuals or businesses seeking mortgage advice. The dual-service nature suggests a versatile financial expert with broad expertise in both business finance and personal/real estate financing.
+
+## Services/Products
+- הנהלת חשבונות לעסקים
+- דוחות שנתיים
+- יעוץ משכנתאות
+
+## Target Audience
+עסקים ויחידים המחפשים שירותי הנהלת חשבונות ויעוץ משכנתאות
+
+## Industry
+שירותים פיננסיים ומקצועיים
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://avihail-tax.co.il/sitemap.xml
+- Robots: https://avihail-tax.co.il/robots.txt
+- Flattened page text (for LLMs): https://avihail-tax.co.il/llms-full.txt
