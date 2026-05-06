@@ -9578,6 +9578,8 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
 .site-footer .contact-icon i {
   color: var(--secondary-color) !important;
 }
+/* Batch: Fix map marker icon color from orange to blue in footer */
+.site-footer [data-element-id='native-icon-1777465638493-5244ltjfv'] { color: #2563EB !important; } .site-footer .iconify--fa7-solid { color: #2563EB !important; }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
