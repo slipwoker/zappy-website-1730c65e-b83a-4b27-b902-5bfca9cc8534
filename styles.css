@@ -9582,6 +9582,57 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
 .nav-cta-btn { color: #FFFFFF !important; }
 /* === BUTTON TEXT OVERRIDES END === */
 
+
+:root {
+  --shadow-subtle: 0 2px 8px rgba(26,58,107,0.07);
+  --shadow-card: 0 8px 24px rgba(26,58,107,0.12);
+  --shadow-elevated: 0 14px 32px rgba(26,58,107,0.16);
+  --shadow-btn-hover: 0 18px 36px rgba(37,99,235,0.22);
+  --gradient-gold-shine: linear-gradient(90deg, rgba(235,245,255,0) 0%, rgba(219,234,254,0.75) 52%, rgba(235,245,255,0) 100%);
+  --gradient-gold-accent: linear-gradient(135deg, #629BF8 0%, var(--accent-color) 100%);
+  --gradient-dark-section: linear-gradient(180deg, var(--primary-color) 0%, #112645 100%);
+  --gradient-overlay-dark: linear-gradient(90deg, rgba(26,58,107,0.12) 0%, rgba(26,58,107,0.04) 100%);
+  --gradient-light-section: linear-gradient(180deg, #EFF6FF 0%, var(--surface-color) 100%);
+  --gradient-overlay-light: linear-gradient(180deg, rgba(239,246,255,0.96) 0%, rgba(219,234,254,0.88) 100%);
+  --gradient-primary: linear-gradient(180deg, #1C3F74 0%, #183663 100%);
+  --gradient-secondary: linear-gradient(180deg, var(--accent-color) 0%, #337DF6 100%);
+}
+/* Batch: Fix map icon color from brown/orange to blue */
+[data-element-id='native-icon-1777465638493-5244ltjfv'] { color: var(--secondary) !important; }
+
+.bookkeeping-annual-reports-offerings-section .baro-card--terracotta .baro-card-icon svg {
+  color: var(--secondary) !important;
+  stroke: var(--secondary) !important;
+}
+
+.bookkeeping-annual-reports-offerings-section .baro-card--olive .baro-card-icon svg {
+  color: var(--primary) !important;
+  stroke: var(--primary) !important;
+}
+
+.bookkeeping-annual-reports-benefits-section .bab-tile-accent--olive {
+  background: var(--primary) !important;
+}
+
+.bookkeeping-annual-reports-benefits-section .bab-tile-icon-wrap--olive svg {
+  color: var(--primary) !important;
+  stroke: var(--primary) !important;
+}
+
+.mortgage-consulting-consultation-scope-section .mccs-icon-terra svg {
+  color: var(--secondary) !important;
+  stroke: var(--secondary) !important;
+}
+
+.mortgage-consulting-consultation-scope-section .mccs-icon-olive svg {
+  color: var(--primary) !important;
+  stroke: var(--primary) !important;
+}
+
+.mortgage-consulting-scenarios-section .mcs-card-tag {
+  background: rgba(26,58,107,0.1) !important;
+  color: var(--primary) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
