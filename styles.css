@@ -9516,6 +9516,68 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
 [class*="contact-"][class*="-section"] {
   background-color: #F0F6FF !important;
 }
+
+.about-audience-section .audience-card-motif--business circle {
+  fill: rgba(26, 58, 107, 0.06) !important;
+}
+
+.about-audience-section .footer-contact .contact-icon,
+.site-footer .contact-icon i,
+.site-footer .footer-contact-icon {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .contact-list a {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .contact-list li {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .contact-list span {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .footer-legal a {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .copyright p {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .footer-bottom a {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .footer-bottom p {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .footer-bottom span:not(.separator) {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .footer-legal .separator {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .contact-icon svg {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .cta-icon i {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .footer-description {
+  color: var(--secondary-color) !important;
+}
+
+.site-footer .contact-icon i {
+  color: var(--secondary-color) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
