@@ -9320,6 +9320,210 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
   --nav-bg: var(--background-color);
   --accessibility-focus: var(--primary-color);
 }
+/* Batch: Replace all warm brown/beige backgrounds with blue site-wide */
+/* ===== SECTION BACKGROUNDS: beige/cream → blue ===== */
+.bookkeeping-annual-reports-intro-section,
+.bookkeeping-annual-reports-benefits-section,
+.bookkeeping-annual-reports-offerings-section,
+.index-services-section,
+.index-testimonials-section,
+.index-benefits-section,
+.mortgage-consulting-intro-section,
+.mortgage-consulting-benefits-section,
+.mortgage-consulting-offerings-section,
+.about-section,
+.contact-section,
+.faq-osek-section {
+  background-color: #F0F6FF !important;
+  background-image: none !important;
+}
+
+/* Dark/charcoal sections → deep blue */
+.bookkeeping-annual-reports-deliverables-section,
+.index-process-section,
+.mortgage-consulting-process-section,
+.about-process-section {
+  background-color: #0F2147 !important;
+  background-image: none !important;
+}
+
+/* ===== CARD / TILE BACKGROUNDS ===== */
+.baro-card,
+.baro-card--terracotta,
+.baro-card--olive {
+  background-color: #EFF6FF !important;
+  border-color: #BFDBFE !important;
+}
+
+.bab-tile {
+  background-color: #EFF6FF !important;
+  border-color: #BFDBFE !important;
+}
+
+.bari-image-card,
+.bari-container,
+.bari-grid {
+  background-color: transparent !important;
+}
+
+.index-services-card {
+  background-color: #EFF6FF !important;
+  border-color: #BFDBFE !important;
+}
+
+.index-testimonials-card {
+  background-color: #EFF6FF !important;
+  border-color: #BFDBFE !important;
+}
+
+.bar-cta-card,
+.bar-cta-container {
+  background-color: #1A3A6B !important;
+}
+
+.faq-osek-card {
+  background-color: #EFF6FF !important;
+  border-color: #BFDBFE !important;
+}
+
+.bard-sidenote {
+  background-color: #DBEAFE !important;
+  border-color: #93C5FD !important;
+}
+
+.bard-step-inner {
+  background-color: #1e3a5f !important;
+}
+
+/* ===== SVG DIVIDERS: brown/warm → blue ===== */
+.index-services-divider-wrapper svg path,
+.index-process-divider-wrapper svg path,
+.index-testimonials-divider-wrapper svg path,
+.index-hero-divider-wrapper svg path {
+  fill: #0F2147 !important;
+}
+
+.index-services-divider-wrapper svg path[opacity],
+.index-process-divider-wrapper svg path[opacity] {
+  fill: #1A3A6B !important;
+}
+
+/* ===== ACCENT ELEMENTS ===== */
+.bab-tile-accent {
+  background-color: #2563EB !important;
+}
+
+.bab-tile-accent--olive,
+.bab-tile-accent--accent {
+  background-color: #3B82F6 !important;
+}
+
+.bab-tile-icon-wrap {
+  background-color: #DBEAFE !important;
+  color: #1A3A6B !important;
+}
+
+.bab-tile-icon-wrap--olive,
+.bab-tile-icon-wrap--accent {
+  background-color: #DBEAFE !important;
+  color: #2563EB !important;
+}
+
+.baro-card-icon {
+  color: #2563EB !important;
+}
+
+.bari-eyebrow, .baro-label, .bard-eyebrow, .bab-eyebrow {
+  background-color: #DBEAFE !important;
+  color: #1A3A6B !important;
+}
+
+.bard-tag {
+  background-color: #DBEAFE !important;
+  color: #1A3A6B !important;
+}
+
+.bar-cta-accent-line {
+  background-color: #3B82F6 !important;
+}
+
+/* ===== FOOTER ICONS: orange/brown → blue ===== */
+.site-footer .contact-icon i,
+.site-footer .contact-icon svg,
+.site-footer .cta-icon i {
+  color: #3B82F6 !important;
+}
+
+/* ===== STEP MARKERS ===== */
+.bard-step-marker,
+.bard-step-num {
+  background-color: #2563EB !important;
+  color: #ffffff !important;
+  border-color: #3B82F6 !important;
+}
+
+.bard-step-icon {
+  background-color: #1e4a8a !important;
+  color: #60A5FA !important;
+}
+
+/* ===== PROCESS STEP MARKERS ===== */
+.index-process-step-marker {
+  background-color: #2563EB !important;
+  color: #ffffff !important;
+}
+
+/* ===== REASSURANCE STRIP ===== */
+.index-services-reassurance {
+  background-color: #DBEAFE !important;
+  border-color: #93C5FD !important;
+}
+
+/* ===== PROCESS CLOSING ===== */
+.index-process-closing {
+  background-color: #1A3A6B !important;
+  border-color: #3B82F6 !important;
+}
+
+/* ===== FAQ ===== */
+.faq-question {
+  background-color: #EFF6FF !important;
+  border-color: #BFDBFE !important;
+}
+
+.faq-answer {
+  background-color: #F0F6FF !important;
+}
+
+.faq-osek-cta {
+  background-color: #1A3A6B !important;
+}
+
+/* ===== BACKPLATE / DECORATIVE ===== */
+.index-testimonials-backplate {
+  background-color: #DBEAFE !important;
+}
+
+/* ===== HERO BUTTONS with inline brown styles ===== */
+.index-hero-btn-secondary {
+  border-color: #3B82F6 !important;
+  color: #EFF6FF !important;
+}
+
+/* ===== MORTGAGE PAGE ===== */
+[class*="mortgage-"][class*="-section"] {
+  background-color: #F0F6FF !important;
+}
+
+/* ===== ABOUT PAGE ===== */
+[class*="about-"][class*="-section"] {
+  background-color: #F0F6FF !important;
+}
+
+/* ===== CONTACT PAGE ===== */
+[class*="contact-"][class*="-section"] {
+  background-color: #F0F6FF !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
