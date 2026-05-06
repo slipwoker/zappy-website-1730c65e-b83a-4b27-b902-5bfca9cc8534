@@ -3350,7 +3350,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .index-process-step-marker {
   background: rgba(111,125,78,0.18);
   border-color: rgba(111,125,78,0.35);
-  color: #1A3A6B;
+  color: #eff4fb;
 }
 
 .index-process-step-content {
@@ -6693,8 +6693,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .about-values-section {
-  background-color: #0F2147;
-  background-image: radial-gradient(ellipse at 15% 20%, rgba(37,99,235,0.15) 0%, transparent 55%), radial-gradient(ellipse at 85% 75%, rgba(59,130,246,0.12) 0%, transparent 50%), linear-gradient(180deg, #1A3A6B 0%, #0F2147 100%);
+  background-color: #1A3A6B;
+  background-image: radial-gradient(ellipse at 15% 20%, rgba(37,99,235,0.15) 0%, transparent 55%), radial-gradient(ellipse at 85% 75%, rgba(59,130,246,0.12) 0%, transparent 50%), linear-gradient(180deg, #1A3A6B 0%, #112645 100%);
   color: var(--text-light);
   padding: var(--spacing-section, 96px) 24px;
   direction: rtl;
@@ -9291,17 +9291,14 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
     margin-bottom: 40px;
   }
 }
-/* === BUTTON TEXT OVERRIDES START === */
-.navbar .nav-cta-btn,
-.nav-cta-btn { color: #FFFFFF !important; }
-/* === BUTTON TEXT OVERRIDES END === */
+
 
 
 :root {
   --gradient-primary: linear-gradient(180deg, #1C3F74 0%, #183663 100%);
   --gradient-gold-shine: linear-gradient(90deg, rgba(235,245,255,0) 0%, rgba(219,234,254,0.75) 52%, rgba(235,245,255,0) 100%);
-  --gradient-gold-accent: linear-gradient(135deg, #60A5FA 0%, var(--accent-color) 100%);
-  --gradient-dark-section: linear-gradient(180deg, var(--primary-color) 0%, #0F2147 100%);
+  --gradient-gold-accent: linear-gradient(135deg, #629BF8 0%, var(--accent-color) 100%);
+  --gradient-dark-section: linear-gradient(180deg, var(--primary-color) 0%, #112645 100%);
   --gradient-overlay-dark: linear-gradient(90deg, rgba(26,58,107,0.12) 0%, rgba(26,58,107,0.04) 100%);
   --gradient-light-section: linear-gradient(180deg, #EFF6FF 0%, var(--surface-color) 100%);
   --gradient-overlay-light: linear-gradient(180deg, rgba(239,246,255,0.96) 0%, rgba(219,234,254,0.88) 100%);
@@ -9326,7 +9323,7 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
 .about-section,
 .contact-section,
 .faq-osek-section {
-  background-color: #F0F6FF !important;
+  background-color: #DBEAFE !important;
   background-image: none !important;
 }
 
@@ -9335,7 +9332,7 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
 .index-process-section,
 .mortgage-consulting-process-section,
 .about-process-section {
-  background-color: #0F2147 !important;
+  background-color: #1A3A6B !important;
   background-image: none !important;
 }
 
@@ -9380,11 +9377,11 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
 
 .bard-sidenote {
   background-color: #DBEAFE !important;
-  border-color: #93C5FD !important;
+  border-color: #3B82F6 !important;
 }
 
 .bard-step-inner {
-  background-color: #1e3a5f !important;
+  background-color: #1A3A6B !important;
 }
 
 /* ===== SVG DIVIDERS: brown/warm → blue ===== */
@@ -9392,7 +9389,7 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
 .index-process-divider-wrapper svg path,
 .index-testimonials-divider-wrapper svg path,
 .index-hero-divider-wrapper svg path {
-  fill: #0F2147 !important;
+  fill: #1A3A6B !important;
 }
 
 .index-services-divider-wrapper svg path[opacity],
@@ -9418,7 +9415,7 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
 .bab-tile-icon-wrap--olive,
 .bab-tile-icon-wrap--accent {
   background-color: #DBEAFE !important;
-  color: #2563EB !important;
+  color: #1c5cea !important;
 }
 
 .baro-card-icon {
@@ -9443,7 +9440,7 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
 .site-footer .contact-icon i,
 .site-footer .contact-icon svg,
 .site-footer .cta-icon i {
-  color: #3B82F6 !important;
+  color: #4588f6 !important;
 }
 
 /* ===== STEP MARKERS ===== */
@@ -9455,8 +9452,8 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
 }
 
 .bard-step-icon {
-  background-color: #1e4a8a !important;
-  color: #60A5FA !important;
+  background-color: #1A3A6B !important;
+  color: #76a7f9 !important;
 }
 
 /* ===== PROCESS STEP MARKERS ===== */
@@ -9468,7 +9465,7 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
 /* ===== REASSURANCE STRIP ===== */
 .index-services-reassurance {
   background-color: #DBEAFE !important;
-  border-color: #93C5FD !important;
+  border-color: #3B82F6 !important;
 }
 
 /* ===== PROCESS CLOSING ===== */
@@ -9579,7 +9576,12 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
   color: var(--secondary-color) !important;
 }
 /* Batch: Fix map marker icon color from orange to blue in footer */
-.site-footer [data-element-id='native-icon-1777465638493-5244ltjfv'] { color: #2563EB !important; } .site-footer .iconify--fa7-solid { color: #2563EB !important; }
+.site-footer [data-element-id='native-icon-1777465638493-5244ltjfv'] { color: #5d8bf0 !important; } .site-footer .iconify--fa7-solid { color: #5d8bf0 !important; }
+/* === BUTTON TEXT OVERRIDES START === */
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #FFFFFF !important; }
+/* === BUTTON TEXT OVERRIDES END === */
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
