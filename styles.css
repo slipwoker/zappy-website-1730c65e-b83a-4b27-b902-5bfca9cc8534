@@ -10372,6 +10372,71 @@ nav.navbar .sub-menu li a:hover { color: #1A3A6B !important; background-color: r
     font-size: 11px;
   }
 }
+
+.ezv-article-section {
+  background: var(--bg-light, var(--background-color));
+  padding: 0 0 80px 0;
+}
+
+.ezv-section-block {
+  background: #fff;
+  border-radius: 16px;
+  padding: 36px 40px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-card, 0 8px 24px rgba(26,58,107,0.10));
+  border: 1px solid rgba(26,58,107,0.07);
+}
+
+.ezv-section-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--bg-light, var(--background-color));
+  padding-bottom: 16px;
+}
+
+.ezv-section-title h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary-color, var(--primary-color));
+  margin: 0;
+}
+
+.ezv-section-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  background: var(--primary-color, var(--primary-color));
+  color: #fff;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.ezv-section-body {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text-dark, var(--text-color));
+}
+
+.ezv-section-body p {
+  margin-bottom: 14px;
+}
+
+.ezv-section-body p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+.ezv-section-block {
+  padding: 24px 20px;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
