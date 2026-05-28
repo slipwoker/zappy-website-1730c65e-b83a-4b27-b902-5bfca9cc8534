@@ -51,7 +51,7 @@ Information about WCAG compliance and accessibility features.
 - Email: hezi.avihail@gmail.com
 - Phone: 054-7450503
 - Phone (tel): tel:0547450503
-- Address: עזרא גבאי 3, פתח תקווה, 4938603, ישראל
+- Address: עזרא גבאי 3, פתח תקווה, פתח תקווה, 4938603, ישראל
 
 ### Contact form
 - URL: https://avihail-tax.co.il/contact
