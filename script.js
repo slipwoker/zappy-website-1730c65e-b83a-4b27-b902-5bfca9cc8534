@@ -5223,10 +5223,10 @@ function fixContrast(){
 })();
 
 
-/* ZAPPY_ECOM_LANGUAGE_ROUTING_RUNTIME_V25 */
+/* ZAPPY_ECOM_LANGUAGE_ROUTING_RUNTIME_V26 */
 (function() {
-  if (window.__zappyEcomLanguageRoutingRuntime >= 25) return;
-  window.__zappyEcomLanguageRoutingRuntime = 25;
+  if (window.__zappyEcomLanguageRoutingRuntime >= 26) return;
+  window.__zappyEcomLanguageRoutingRuntime = 26;
 
   // Routing strategy: use path-based language URLs for ALL storefront pages
   // (including dynamic /product/:slug and /category/:slug). The publish
@@ -5664,18 +5664,19 @@ function fixContrast(){
   // declaration merging that was eating the standalone CSS injection.
   function ensureRuntimeCssInjected() {
     var existing = document.getElementById('zappy-ecom-routing-runtime-css');
-    if (existing && existing.getAttribute('data-v') === '30') return;
+    if (existing && existing.getAttribute('data-v') === '31') return;
     if (existing) existing.remove();
     var style = document.createElement('style');
     style.id = 'zappy-ecom-routing-runtime-css';
     style.setAttribute('data-zappy-runtime', 'ecom-routing');
-    style.setAttribute('data-v', '30');
+    style.setAttribute('data-v', '31');
     style.textContent =
       '@media (min-width: 769px){' +
         'html[dir="ltr"] .nav-container > .nav-brand,body[dir="ltr"] .nav-container > .nav-brand,html[dir="ltr"] .nav-right-group > .nav-brand,body[dir="ltr"] .nav-right-group > .nav-brand{order:-1!important}' +
         'html[dir="ltr"] .nav-container > .nav-menu,body[dir="ltr"] .nav-container > .nav-menu,html[dir="ltr"] .nav-right-group > .nav-menu,body[dir="ltr"] .nav-right-group > .nav-menu{order:1!important;margin-inline-start:0!important;flex:1 1 0!important;min-width:0!important;overflow:visible!important;align-items:center!important}' +
         'html[dir="ltr"] .nav-container > .nav-menu > li,body[dir="ltr"] .nav-container > .nav-menu > li,html[dir="ltr"] .nav-right-group > .nav-menu > li,body[dir="ltr"] .nav-right-group > .nav-menu > li{flex:0 0 auto!important}' +
         'html[dir="ltr"] .nav-container > .lang-switcher,body[dir="ltr"] .nav-container > .lang-switcher,html[dir="ltr"] .nav-container > .nav-ecommerce-icons,body[dir="ltr"] .nav-container > .nav-ecommerce-icons,html[dir="ltr"] .nav-container > .nav-cta-container,body[dir="ltr"] .nav-container > .nav-cta-container,html[dir="ltr"] .nav-right-group > .lang-switcher,body[dir="ltr"] .nav-right-group > .lang-switcher,html[dir="ltr"] .nav-right-group > .nav-ecommerce-icons,body[dir="ltr"] .nav-right-group > .nav-ecommerce-icons,html[dir="ltr"] .nav-right-group > .nav-cta-container,body[dir="ltr"] .nav-right-group > .nav-cta-container{order:2!important;flex:0 0 auto!important;min-width:max-content!important}' +
+        '.nav-ecommerce-icons .nav-search-box{order:1!important}.nav-ecommerce-icons .lang-switcher{order:2!important}.nav-ecommerce-icons .login-link.nav-login{order:3!important}.nav-ecommerce-icons .cart-link.nav-cart{order:4!important}' +
         'html[dir="ltr"] .nav-container > .nav-ecommerce-icons.nav-icons-left,body[dir="ltr"] .nav-container > .nav-ecommerce-icons.nav-icons-left,html[dir="ltr"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left,body[dir="ltr"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left{margin-inline-start:auto!important;flex:0 0 auto!important;min-width:max-content!important}' +
         'html[dir="rtl"] .nav-container > .nav-menu,body[dir="rtl"] .nav-container > .nav-menu,html[dir="rtl"] .nav-right-group > .nav-menu,body[dir="rtl"] .nav-right-group > .nav-menu{flex:1 1 0!important;min-width:0!important;overflow:visible!important;align-items:center!important}' +
         'html[dir="rtl"] .nav-container > .nav-menu > li,body[dir="rtl"] .nav-container > .nav-menu > li,html[dir="rtl"] .nav-right-group > .nav-menu > li,body[dir="rtl"] .nav-right-group > .nav-menu > li{flex:0 0 auto!important}' +
@@ -7776,6 +7777,98 @@ function withConsent(category, callback) {
       attributeFilter: ['class', 'style']
     });
   } catch (e) {}
+})();
+
+/* ZAPPY_ANNOUNCEMENT_BAR_ROTATION_V4 */
+(function(){
+  if (window.__zappyAnnouncementBarRotationV4) return;
+  window.__zappyAnnouncementBarRotationV4 = true;
+  window.__zappyAnnouncementBarRotationV3 = true; // legacy guards
+  window.__zappyAnnouncementBarRotationV2 = true;
+
+  function readInterval(bar) {
+    var raw = bar && bar.getAttribute && bar.getAttribute('data-interval');
+    var ms = parseInt(raw, 10);
+    if (!isFinite(ms) || ms < 1000) ms = 4000;
+    return ms;
+  }
+
+  function remountMessages(bar) {
+    // Neutralize orphaned anonymous setIntervals from pre-V2 inline fallbacks
+    // that never stored their timer id — their NodeList closures keep ticking
+    // on the OLD nodes after we replace them with clones.
+    if (!bar) return;
+    var stale = bar.querySelectorAll('.zappy-announcement-message');
+    for (var s = 0; s < stale.length; s++) {
+      var node = stale[s];
+      if (!node || !node.parentNode) continue;
+      node.parentNode.replaceChild(node.cloneNode(true), node);
+    }
+  }
+
+  function startRotation(bar, intervalMs, force) {
+    if (!bar) return;
+    var ms = isFinite(intervalMs) && intervalMs >= 1000 ? intervalMs : readInterval(bar);
+    var messages = bar.querySelectorAll('.zappy-announcement-message');
+    if (messages.length <= 1) {
+      if (window.__zappyAnnouncementRotateTimer) {
+        clearInterval(window.__zappyAnnouncementRotateTimer);
+        window.__zappyAnnouncementRotateTimer = null;
+      }
+      window.__zappyAnnouncementRotateBar = null;
+      window.__zappyAnnouncementRotateMs = null;
+      return;
+    }
+    // Already driving this bar at this interval — leave the active slide alone.
+    if (
+      !force &&
+      window.__zappyAnnouncementRotateTimer &&
+      window.__zappyAnnouncementRotateBar === bar &&
+      window.__zappyAnnouncementRotateMs === ms
+    ) {
+      return;
+    }
+    if (window.__zappyAnnouncementRotateTimer) {
+      clearInterval(window.__zappyAnnouncementRotateTimer);
+      window.__zappyAnnouncementRotateTimer = null;
+    }
+    remountMessages(bar);
+    messages = bar.querySelectorAll('.zappy-announcement-message');
+    if (messages.length <= 1) return;
+    var current = 0;
+    for (var i = 0; i < messages.length; i++) {
+      if (i === 0) messages[i].classList.add('active');
+      else messages[i].classList.remove('active');
+    }
+    window.__zappyAnnouncementRotateBar = bar;
+    window.__zappyAnnouncementRotateMs = ms;
+    window.__zappyAnnouncementRotateTimer = setInterval(function() {
+      var all = bar.querySelectorAll('.zappy-announcement-message');
+      if (!all || all.length <= 1) return;
+      if (current >= all.length) current = 0;
+      all[current].classList.remove('active');
+      current = (current + 1) % all.length;
+      all[current].classList.add('active');
+    }, ms);
+  }
+
+  // Shared entry point — pass force:true after rebuilding message nodes.
+  window.zappyStartAnnouncementRotation = startRotation;
+
+  function boot() {
+    if (document.body && document.body.classList.contains('zappy-focused-page')) return;
+    var bar = document.querySelector('.zappy-announcement-bar');
+    if (!bar) return;
+    startRotation(bar, readInterval(bar), false);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+  // Settings fetch / dynamic bar create may land after first paint.
+  [300, 1000, 2500].forEach(function(ms){ setTimeout(boot, ms); });
 })();
 
 /* ZAPPY_MOBILE_MENU_CLOSED_ICONS_V1 */
